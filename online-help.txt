@@ -1,0 +1,28 @@
+root@05c9ff16f9d3:/git/info-retrieval-cap-6776-project# python example.py --help
+2020-04-05 14:47:46,044 - main - DEBUG - starting up
+usage: example.py [-h] prefix
+
+transformer example
+
+positional arguments:
+  prefix      directory holding train and test data
+
+optional arguments:
+  -h, --help  show this help message and exit
+root@05c9ff16f9d3:/git/info-retrieval-cap-6776-project# python gen_dataset.py --help
+2020-04-05 14:47:53,019 - main - INFO - starting up
+usage: gen_dataset.py [-h] [-s START_DATE] [-e END_DATE] [-o OUTPUT_FILE_NAME]
+
+dataset generator
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s START_DATE, --start_date START_DATE
+                        start date in yyyy-mm-dd format, y=year, m=month
+                        number, d= day of year
+  -e END_DATE, --end_date END_DATE
+                        end date in yyyy-mm-dd format, y=year, m=month number,
+                        d= day of year
+  -o OUTPUT_FILE_NAME, --output_file_name OUTPUT_FILE_NAME
+                        fully qualified output file name
+root@05c9ff16f9d3:/git/info-retrieval-cap-6776-project#
